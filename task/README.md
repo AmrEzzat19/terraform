@@ -11,9 +11,12 @@
 ######   1. provider.tf 
       - refers to the plugin that allows Terraform to interact with OCI(Oracle Cloud Infrastructure)
    
-######   2. network resources.tf    
-      - contains a resource to creates a VCN(Virtual Cloud Network) in OCI which is a private network 
-      - contains a resource to creates a subnet within VCN by passing ID of the VCN
+######   2. network Module    
+      - contains a resource that creates a VCN(Virtual Cloud Network) in OCI which is a private network 
+      - contains a resource that creates a subnet within VCN by passing ID of the VCN
+      - contains a resourece that creates internet gateway
+      - contains a resource that assigns a public_IP to Instance private_IP
+      - contains a resource that create route table
       
 ######   3. core instance.tf
       - contains a resource to create a compute instance with public ip
