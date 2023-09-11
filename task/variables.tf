@@ -15,10 +15,6 @@ variable "subnet_cidr" {
   type = string
 }
 
-variable "fingerprint" {
-  type = string
-}
-
 variable "ssh_public_key"{
   type = string
 }
