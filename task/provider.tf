@@ -7,7 +7,6 @@ provider "oci"{
         user_ocid = "ORCALE_ACCOUNT_USER_OCID
         private_key_path = "ORCALE_ACCOUNT_PRIVATE_KEY_PATH"  
         fingerprint = "ORCALE_ACCOUNT_FINGERPRINT"
-
     */
 }   
 

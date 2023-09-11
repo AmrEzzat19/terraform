@@ -1,7 +1,7 @@
 
 resource "oci_core_instance" "task_instance" {
   compartment_id = var.compartment_id
-  availability_domain = "ORCALE_ACCOUNT_AVAILABILTY_DOMAIN"
+  availability_domain = var.availability_domain
   
   #instance type
   shape = "VM.Standard2.1"
