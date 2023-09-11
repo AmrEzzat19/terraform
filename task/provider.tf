@@ -1,12 +1,12 @@
 provider "oci"{
     region  =  var.region 
-    fingerprint = var.fingerprint
     profile = "DEFAULT"
     /*created ~/.osi/config that contains private information
         [DEFAULT]
-        tenancy_ocid = "YOUR_TENACITY_OCID"
-        user_ocid = "YOUR_USER_OCID
-        private_key_path = "YOUR_PRIVATE_KEY_PATH"  
+        tenancy_ocid = "ORCALE_ACCOUNT_TENACITY_OCID"
+        user_ocid = "ORCALE_ACCOUNT_USER_OCID
+        private_key_path = "ORCALE_ACCOUNT_PRIVATE_KEY_PATH"  
+        fingerprint = "ORCALE_ACCOUNT_FINGERPRINT"
     */
 }   
 
